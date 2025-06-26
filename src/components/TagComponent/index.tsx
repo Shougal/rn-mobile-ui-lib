@@ -20,7 +20,7 @@ export const TagComponent = (props: tagProps)=>{
     const bgColor = props.variant === 'default' && props.color ? props.color : defaultBgColor
     return(
         <View style={[variantStyle, {backgroundColor: bgColor}]}>
-            <Text >
+            <Text style={{textAlign:'center'}} >
                 {props.label}
             </Text>
         </View>
