@@ -9,13 +9,18 @@ import { StyleSheet } from "react-native";
 
 export const styles= StyleSheet.create({
     default: {
-        backgroundColor: '#005A9C'
+        backgroundColor: '#005A9C',
+        color: 'white',
+        borderRadius: 16,
+        padding: 8,
+        
 
     },
     offer: {
-        backgroundColor: '#720e9e'
+        backgroundColor: '#720e9e',
+        color: 'white',
+        borderRadius: 16,
+        padding: 8,
     }
-
-
     
 });
