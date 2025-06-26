@@ -12,6 +12,7 @@ export const styles= StyleSheet.create({
         backgroundColor: '#005A9C',
         borderRadius: 16,
         padding: 8,
+      
         
         
         
@@ -21,6 +22,7 @@ export const styles= StyleSheet.create({
         backgroundColor: '#720e9e',
         borderRadius: 16,
         padding: 8,
+        
     }, 
 
 
