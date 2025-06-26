@@ -11,19 +11,23 @@ import { StatusBar, StyleSheet, useColorScheme, View, SafeAreaView, Linking } fr
 import { TagComponent } from './src/components/TagComponent';
 import {Text} from './src/components/TextComponent'
 import {Link} from './src/components/LinkComponent'
+import { DismissableComponent } from './src/components/DismissableComponent';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <SafeAreaView style={{flex:1}}>
-      <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+    <SafeAreaView style={{backgroundColor:'#749BC2', flex: 1}}>
+
       
-      <TagComponent  variant='default' label="card label" />
+      {/* <TagComponent  variant='default' label="card label" />
       <Text content='checking text component'/>
-      <Link onPress={(url)=>{Linking.openURL(url)}}url='https://www.example.com' linkLabel='link check' ></Link>
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+      <Link onPress={(url)=>{Linking.openURL(url)}}url='https://www.example.com' linkLabel='link check' ></Link> */}
+      <View style={{paddingHorizontal:16}}>
+      <DismissableComponent variant='default' label="card offers" content='Use your anb Cards to enjoy substantial offers' onPress={(url)=>{Linking.openURL(url)}}url='https://www.example.com' linkLabel='link check'/>
+
+
+      </View>
+
 
     </SafeAreaView>
           
