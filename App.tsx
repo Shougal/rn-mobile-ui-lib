@@ -6,16 +6,24 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View, SafeAreaView ,Text} from 'react-native';
 
+import { TagComponent } from './src/components/TagComponent';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={{flex:1}}>
+      <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      
+      <TagComponent  variant='default' label="card label" />
       <NewAppScreen templateFileName="App.tsx" />
     </View>
+
+    </SafeAreaView>
+          
+    
   );
 }
 
