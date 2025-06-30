@@ -10,6 +10,8 @@ export const styles = StyleSheet.create({
         fontSize: fontSize['sm'],
 
         //Todo: line height,
+        // lineHeight:140,
+        // backgroundColor: 'red',
 
         textDecorationLine: 'underline',
         textDecorationStyle: 'solid',

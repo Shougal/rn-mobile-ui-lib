@@ -10,9 +10,10 @@ export const styles = StyleSheet.create({
 
         // TODO 2: Should width be set here so it won't exceed parents width?
         // max width:'100%', - 16 padding of app view element
+        width:'100%',
 
         // I like this because it accounts for views padding somehow?
-        maxWidth: '100%',
+        // maxWidth: '100%',
         // maxHeight: '100%',
 
         borderRadius: cornerRadius['m'],
@@ -29,7 +30,7 @@ export const styles = StyleSheet.create({
 
         
 
-        //TODO 4: check background color
+        //TODO 4: check background color, put in theme
         backgroundColor: '#fff',
 
         // //TODO 5: should add overflow wrap to account for really long words:
