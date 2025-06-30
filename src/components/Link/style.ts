@@ -1,11 +1,11 @@
 import { StyleSheet } from "react-native";
 
-import { fontSize } from "../../styles/theme";
+import { fontSize, fontFamily } from "../../styles/theme";
 
 
 export const styles = StyleSheet.create({
     default:{
-        fontFamily: 'Inconsolata',
+        fontFamily: fontFamily['default'],
         fontWeight:700,
         fontSize: fontSize['sm'],
 

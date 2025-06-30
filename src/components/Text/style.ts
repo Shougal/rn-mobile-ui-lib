@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { fontSize } from "../../styles/theme";
+import { fontSize, fontFamily } from "../../styles/theme";
 
 export const styles = StyleSheet.create({
     container: {
@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         // exceed its parent width?
         // width:'100%',
 
-        fontFamily: 'Inconsolata',
+        fontFamily: fontFamily['default'],
         fontWeight: 400,
         fontSize: fontSize['sm'],
         color: '#181B1E',

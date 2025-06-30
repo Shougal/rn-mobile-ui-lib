@@ -6,7 +6,7 @@
 //
 
 import { StyleSheet } from "react-native";
-import { cornerRadius, gap, padding } from "../../styles/theme";
+import { cornerRadius, gap, padding, fontFamily } from "../../styles/theme";
 
 export const styles= StyleSheet.create({
     default: {
@@ -55,7 +55,7 @@ export const styles= StyleSheet.create({
     }, 
 
     text:{
-        fontFamily: 'Inconsolata',
+        fontFamily: fontFamily['default'],
         textAlign:'center', 
         // TODO: check text color
         color:'#fff',
