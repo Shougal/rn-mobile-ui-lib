@@ -41,3 +41,9 @@ type LineHeight = keyof typeof lineHeight;
 export const lineHeight = {
     default: 1.4
 } as const
+
+
+type fontFamily = keyof typeof fontFamily;
+export const fontFamily ={
+    default: 'Inconsolata'
+} as const
