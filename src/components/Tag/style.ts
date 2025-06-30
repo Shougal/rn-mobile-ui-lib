@@ -55,6 +55,7 @@ export const styles= StyleSheet.create({
     }, 
 
     text:{
+        fontFamily: 'Inconsolata',
         textAlign:'center', 
         // TODO: check text color
         color:'#fff',

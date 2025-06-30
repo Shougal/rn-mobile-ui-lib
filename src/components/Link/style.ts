@@ -5,6 +5,7 @@ import { fontSize } from "../../styles/theme";
 
 export const styles = StyleSheet.create({
     default:{
+        fontFamily: 'Inconsolata',
         fontWeight:700,
         fontSize: fontSize['sm'],
 
