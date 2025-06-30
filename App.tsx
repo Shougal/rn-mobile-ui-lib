@@ -61,8 +61,10 @@ const styles = StyleSheet.create({
 
     // should flex direction be row?
     // TODO part2) do i say that max: width should be 100% of parent?
-    maxWidth: '100%',
-    paddingHorizontal: 16,
+    // maxWidth: '100%',
+    // width: '100%',
+    padding: 16,
+    gap:16,
     backgroundColor: 'beige',
     flexDirection: 'row',
     flexWrap: 'wrap'
