@@ -12,8 +12,8 @@ export const DismissBanner = (props: DismissableProps) => {
     return (
         <View style={styles.container} >
             <View style={styles.contentContainer}>
-                <TagComponent variant={props.variant} label={props.label} />
-                <Text content={props.content} />
+                <TagComponent variant={props.tagVariant} label={props.tagLabel} />
+                <Text content={props.textContent} />
                 <Link linkLabel={props.linkLabel} onPress={props.onPress} />
             </View>
 

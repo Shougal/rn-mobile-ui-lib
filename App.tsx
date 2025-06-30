@@ -20,14 +20,17 @@ function App() {
 
       <View style={styles.contentContainer}>
 
-        <DismissBanner variant='default' label="card offers"
-          content='Use your anb Cards to enjoy substantial offers'
-          onPress={() => { Linking.openURL('https://www.example.com') }}
-          linkLabel='link check' />
-        <DismissBanner variant='default' label="card offers"
-          content='Use your anb Cards to enjoy substantial offers'
-          onPress={() => { Linking.openURL('https://www.example.com') }}
-          linkLabel='link check' />
+        <DismissBanner linkLabel='see offers' 
+        onPress={() => { Linking.openURL('https://www.example.com') }} 
+        tagLabel='card offers'
+        tagVariant='default'
+        textContent='Use your anb Cards to enjoy substantial offers'/>
+
+        <DismissBanner linkLabel='see offers' 
+        onPress={() => { Linking.openURL('https://www.example.com') }} 
+        tagLabel='card offers'
+        tagVariant='default'
+        textContent='Use your anb Cards to enjoy substantial offers' />
 
       </View>
 
