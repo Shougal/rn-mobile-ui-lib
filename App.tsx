@@ -5,40 +5,65 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View, SafeAreaView, Linking } from 'react-native';
 
-import { TagComponent } from './src/components/TagComponent';
-import {Text} from './src/components/TextComponent'
-import {Link} from './src/components/LinkComponent'
-import { DismissableComponent } from './src/components/DismissableComponent';
+import { StyleSheet, useColorScheme, View, SafeAreaView, Linking } from 'react-native';
+import { vw } from 'react-native-expo-viewport-units';
+
+import { DismissBanner } from './src/components/DismissBanner';
+
+
 function App() {
+
   const isDarkMode = useColorScheme() === 'dark';
-
   return (
-    <SafeAreaView style={{backgroundColor:'#749BC2', flex: 1}}>
+    <SafeAreaView style={styles.container}>
 
-      
-      {/* <TagComponent  variant='default' label="card label" />
-      <Text content='checking text component'/>
-      <Link onPress={(url)=>{Linking.openURL(url)}}url='https://www.example.com' linkLabel='link check' ></Link> */}
-      <View style={{paddingHorizontal:16}}>
-      <DismissableComponent variant='default' label="card offers" content='Use your anb Cards to enjoy substantial offers' onPress={(url)=>{Linking.openURL(url)}}url='https://www.example.com' linkLabel='link check'/>
+      <View style={styles.contentContainer}>
 
+        <DismissBanner variant='default' label="card offers"
+          content='Use your anb Cards to enjoy substantial offers'
+          onPress={() => { Linking.openURL('https://www.example.com') }}
+          linkLabel='link check' />
+        <DismissBanner variant='default' label="card offers"
+          content='Use your anb Cards to enjoy substantial offers'
+          onPress={() => { Linking.openURL('https://www.example.com') }}
+          linkLabel='link check' />
 
       </View>
 
 
+
+
     </SafeAreaView>
-          
-    
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#749BC2',
+
+    //TODO: DO i add a width here, 
+    // telling that width should not exceed screen width?
+    // if not, should i say flex-wrap?
+
+    // width: 100 vw?
+    width: vw(100),
+
+
+
+
   },
+  contentContainer: {
+
+    // should flex direction be row?
+    // TODO part2) do i say that max: width should be 100% of parent?
+    maxWidth: '100%',
+    paddingHorizontal: 16,
+    backgroundColor: 'beige',
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+  }
 });
 
 export default App;
