@@ -1,7 +1,3 @@
-
-
-type CornerRadius = keyof typeof cornerRadius;
-
 export const cornerRadius = {
     xs: 4,
     s: 8,
@@ -10,7 +6,6 @@ export const cornerRadius = {
 } as const
 
 
-type Gap = keyof typeof gap;
 export const gap = {
     '2xs': 4,
     'xs': 8,
@@ -20,7 +15,6 @@ export const gap = {
 
 
 
-type Padding = keyof typeof padding;
 export const padding = {
     '2xs': 4,
     'xs': 8,
@@ -29,7 +23,6 @@ export const padding = {
 } as const
 
 
-type FontSize = keyof typeof fontSize;
 export const fontSize = {
     xs: 8,
     sm: 16,
@@ -37,13 +30,11 @@ export const fontSize = {
 } as const
 
 
-type LineHeight = keyof typeof lineHeight;
 export const lineHeight = {
     default: 1.4
 } as const
 
 
-type fontFamily = keyof typeof fontFamily;
 export const fontFamily ={
     default: 'Inconsolata'
 } as const
