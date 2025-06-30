@@ -10,10 +10,10 @@
  Color is optional. If not chosen, default style will be chosen
  */
 
-export type variantType= "default"|"offer"
+export type VariantType= "default"|"offer"
 
- export interface tagProps {
-    variant: variantType
+ export interface TagProps {
+    variant: VariantType
     label: string
     color?: string
 }

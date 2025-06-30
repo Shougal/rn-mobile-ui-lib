@@ -8,10 +8,10 @@
 import {View, Text} from 'react-native'
 
 import { styles } from "./style";
-import { tagProps } from "./type";
+import { TagProps } from "./types";
 
 
-export const TagComponent = (props: tagProps)=>{
+export const TagComponent = (props: TagProps)=>{
     const variantStyle = styles[props.variant]
     const defaultBgColor = styles[props.variant].backgroundColor
 

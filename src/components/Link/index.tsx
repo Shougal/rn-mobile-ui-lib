@@ -1,8 +1,8 @@
 import { Pressable , Text, Linking} from "react-native";
-import { linkProps } from "./type";
+import { LinkProps } from "./types";
 import { styles } from "./style";
 
-export const Link = (props:linkProps) => {
+export const Link = (props:LinkProps) => {
 
     return(
         <Pressable onPress={props.onPress}>

@@ -2,7 +2,7 @@
 
 type CornerRadius = keyof typeof cornerRadius;
 
-export const cornerRadius= {
+export const cornerRadius = {
     xs: 4,
     s: 8,
     m: 16,
@@ -30,7 +30,7 @@ export const padding = {
 
 
 type FontSize = keyof typeof fontSize;
-export const fontSize ={
+export const fontSize = {
     xs: 8,
     sm: 16,
     m: 32,
