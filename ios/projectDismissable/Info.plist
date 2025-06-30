@@ -51,7 +51,7 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Inconsolata-VariableFont_wdth,wght.ttf</string>
+		<string>InconsolataVariableFontWdthWght.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -2,7 +2,7 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf",
+      "path": "src/assets/fonts/InconsolataVariableFontWdthWght.ttf",
       "sha1": "3437cf1633a76c0faf8089499af756edaa4cf621"
     }
   ]
