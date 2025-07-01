@@ -73,3 +73,21 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+.expo/
+.expo-shared/
+babel.config.js
+
+# TypeScript cache
+tsconfig.tsbuildinfo
+dist/
+
+
+.env
+.env.*
+
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+*.log
+*.tmp
