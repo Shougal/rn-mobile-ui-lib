@@ -1,3 +1,5 @@
+import { Platform } from "react-native"
+
 export const cornerRadius = {
     xs: 4,
     s: 8,
@@ -36,5 +38,8 @@ export const lineHeight = {
 
 
 export const fontFamily ={
-    default: 'Inconsolata'
+    default: Platform.select({
+    ios: 'Inconsolata-Regular', 
+    android: 'InconsolataRegular', 
+  }),
 } as const

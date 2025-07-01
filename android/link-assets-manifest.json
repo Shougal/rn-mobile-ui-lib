@@ -2,8 +2,16 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/InconsolataVariableFontWdthWght.ttf",
-      "sha1": "3437cf1633a76c0faf8089499af756edaa4cf621"
+      "path": "src/assets/fonts/InconsolataRegular.ttf",
+      "sha1": "356ae882944ec664d8ec5edf93c76b2cf6633e73"
+    },
+    {
+      "path": "src/assets/fonts/InconsolataSemiExpandedBlack.ttf",
+      "sha1": "9c81fc577f368afa00a0705c3546448b1c57d820"
+    },
+    {
+      "path": "src/assets/fonts/InconsolataSemiExpandedExtraLight.ttf",
+      "sha1": "e3a8f9cc5f23a46e2146564bc5c1b4e0615f4fd4"
     }
   ]
 }

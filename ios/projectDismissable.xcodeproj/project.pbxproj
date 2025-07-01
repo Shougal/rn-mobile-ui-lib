@@ -12,7 +12,9 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		85AED6EEDD4F67F98EBE02EA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		C0A12427CC0A440794886659 /* InconsolataVariableFontWdthWght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B16FF1863C54E97AA3CDDCC /* InconsolataVariableFontWdthWght.ttf */; };
+		05DD25646A614A1F826DBCB3 /* InconsolataSemiExpandedExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D2C2F1228A244F8B5EB02DD /* InconsolataSemiExpandedExtraLight.ttf */; };
+		08A9611604F84F7099F507F4 /* InconsolataSemiExpandedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCC21D3C322245C792FFC3FF /* InconsolataSemiExpandedBlack.ttf */; };
+		972B1F5A827E4AD689421BF7 /* InconsolataRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50B412289714404B1904607 /* InconsolataRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,9 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = projectDismissable/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = projectDismissable/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		7B16FF1863C54E97AA3CDDCC /* InconsolataVariableFontWdthWght.ttf */ = {isa = PBXFileReference; name = "InconsolataVariableFontWdthWght.ttf"; path = "../src/assets/fonts/InconsolataVariableFontWdthWght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D2C2F1228A244F8B5EB02DD /* InconsolataSemiExpandedExtraLight.ttf */ = {isa = PBXFileReference; name = "InconsolataSemiExpandedExtraLight.ttf"; path = "../src/assets/fonts/InconsolataSemiExpandedExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCC21D3C322245C792FFC3FF /* InconsolataSemiExpandedBlack.ttf */ = {isa = PBXFileReference; name = "InconsolataSemiExpandedBlack.ttf"; path = "../src/assets/fonts/InconsolataSemiExpandedBlack.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F50B412289714404B1904607 /* InconsolataRegular.ttf */ = {isa = PBXFileReference; name = "InconsolataRegular.ttf"; path = "../src/assets/fonts/InconsolataRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +108,9 @@
 		96E70F90180F4A0B86B94AE2 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				7B16FF1863C54E97AA3CDDCC /* InconsolataVariableFontWdthWght.ttf */,
+				2D2C2F1228A244F8B5EB02DD /* InconsolataSemiExpandedExtraLight.ttf */,
+				DCC21D3C322245C792FFC3FF /* InconsolataSemiExpandedBlack.ttf */,
+				F50B412289714404B1904607 /* InconsolataRegular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -173,7 +179,9 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				85AED6EEDD4F67F98EBE02EA /* PrivacyInfo.xcprivacy in Resources */,
-				C0A12427CC0A440794886659 /* InconsolataVariableFontWdthWght.ttf in Resources */,
+				05DD25646A614A1F826DBCB3 /* InconsolataSemiExpandedExtraLight.ttf in Resources */,
+				08A9611604F84F7099F507F4 /* InconsolataSemiExpandedBlack.ttf in Resources */,
+				972B1F5A827E4AD689421BF7 /* InconsolataRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
