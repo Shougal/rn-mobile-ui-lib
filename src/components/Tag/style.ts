@@ -46,8 +46,7 @@ export const styles= StyleSheet.create({
 
         paddingTop: padding['2xs'],
         paddingRight: padding['xs'],
-        paddingBottom: padding['2xs'],
-        //TODO: 2xs or xs?
+        paddingBottom: padding['2xs'],        
         paddingLeft: padding['2xs'],
       
 
@@ -57,7 +56,6 @@ export const styles= StyleSheet.create({
     text:{
         fontFamily: fontFamily['default'],
         textAlign:'center', 
-        // TODO: check text color
         color:'#fff',
     },
 
