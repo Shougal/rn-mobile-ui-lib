@@ -16,13 +16,13 @@ export const styles = StyleSheet.create({
         // maxWidth: '100%',
         // maxHeight: '100%',
 
-        borderRadius: cornerRadius['m'],
+        borderRadius: cornerRadius.m,
 
 
         // TODO 3: made padding 16 instead of 8
-        padding: padding['m'],
+        padding: padding.m,
 
-        gap: gap['s'],
+        gap: gap.s,
        
         // TODO 4: added flex direction row to account for the two main
         // containers within the banner

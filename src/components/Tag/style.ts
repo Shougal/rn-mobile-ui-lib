@@ -17,12 +17,12 @@ export const styles= StyleSheet.create({
         // Fixed height for the tag, no need for min height
         height:25,
 
-        borderRadius: cornerRadius['xs'],
+        borderRadius: cornerRadius.xs,
 
         gap: gap['2xs'],
 
         paddingTop: padding['2xs'],
-        paddingRight: padding['xs'],
+        paddingRight: padding.xs,
         paddingBottom: padding['2xs'],
         //TODO: 2xs or xs?
         paddingLeft: padding['2xs'],
@@ -40,12 +40,12 @@ export const styles= StyleSheet.create({
         // Fixed height for the tag, no need for min height
         height:25,
 
-        borderRadius: cornerRadius['xs'],
+        borderRadius: cornerRadius.xs,
 
         gap: gap['2xs'],
 
         paddingTop: padding['2xs'],
-        paddingRight: padding['xs'],
+        paddingRight: padding.xs,
         paddingBottom: padding['2xs'],        
         paddingLeft: padding['2xs'],
       
@@ -54,7 +54,7 @@ export const styles= StyleSheet.create({
     }, 
 
     text:{
-        fontFamily: fontFamily['default'],
+        fontFamily: fontFamily.default,
         textAlign:'center', 
         color:'#fff',
     },

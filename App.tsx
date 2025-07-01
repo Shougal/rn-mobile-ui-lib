@@ -5,8 +5,9 @@
  * @format
  */
 
+import React from 'react';
 
-import { StyleSheet, useColorScheme, View, SafeAreaView, Linking } from 'react-native';
+import { StyleSheet, View, SafeAreaView, Linking } from 'react-native';
 import { vw } from 'react-native-expo-viewport-units';
 
 import { DismissBanner } from './src/components/DismissBanner';
@@ -14,7 +15,7 @@ import { DismissBanner } from './src/components/DismissBanner';
 
 function App() {
 
-  const isDarkMode = useColorScheme() === 'dark';
+  
   return (
     <SafeAreaView style={styles.container}>
 

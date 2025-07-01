@@ -1,4 +1,6 @@
-import { Pressable , Text, Linking} from "react-native";
+import React from "react";
+
+import { Pressable , Text} from "react-native";
 import { LinkProps } from "./types";
 import { styles } from "./style";
 

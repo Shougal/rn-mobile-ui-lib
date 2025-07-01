@@ -8,9 +8,9 @@ export const styles = StyleSheet.create({
         // exceed its parent width?
         // width:'100%',
 
-        fontFamily: fontFamily['default'],
+        fontFamily: fontFamily.default,
         fontWeight: 400,
-        fontSize: fontSize['sm'],
+        fontSize: fontSize.sm,
         color: '#181B1E',
         //TODO: line height is not working
         // lineHeight: 1.4, 

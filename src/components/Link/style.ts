@@ -5,9 +5,9 @@ import { fontSize, fontFamily } from "../../styles/theme";
 
 export const styles = StyleSheet.create({
     default:{
-        fontFamily: fontFamily['default'],
+        fontFamily: fontFamily.default,
         fontWeight:700,
-        fontSize: fontSize['sm'],
+        fontSize: fontSize.sm,
 
         //Todo: line height,
         // lineHeight:140,
