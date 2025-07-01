@@ -4,7 +4,6 @@
 //
 //  Created by shoug alharbi on 6/26/25.
 //
-import React from 'react';
 import {View, Text} from 'react-native'
 
 import { styles } from "./style";

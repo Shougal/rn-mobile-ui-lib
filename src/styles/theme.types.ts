@@ -5,4 +5,4 @@ export type Gap = keyof typeof gap;
 export type Padding = keyof typeof padding;
 export type FontSize = keyof typeof fontSize;
 export type LineHeight = keyof typeof lineHeight;
-export type fontFamily = keyof typeof fontFamily;
+export type FontFamily = keyof typeof fontFamily;

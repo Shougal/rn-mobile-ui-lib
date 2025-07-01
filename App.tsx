@@ -5,8 +5,6 @@
  * @format
  */
 
-import React from 'react';
-
 import { StyleSheet, View, SafeAreaView, Linking } from 'react-native';
 import { vw } from 'react-native-expo-viewport-units';
 
@@ -34,6 +32,7 @@ function App() {
         textContent='Use your anb Cards to enjoy substantial offers' />
 
       </View>
+      
 
 
 
