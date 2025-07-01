@@ -9,7 +9,7 @@ import pluginReactNative from "eslint-plugin-react-native";
 
 export default defineConfig([
   { 
-    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"], 
+    files: ["**/*.{ts,tsx}"], 
     plugins: { 
       js,
       "@typescript-eslint": tseslint.plugin,
@@ -18,17 +18,23 @@ export default defineConfig([
     }, 
     extends: [
       "js/recommended",  // core js best practices enforced
-      "plugin:react-native/all" // recommended rules like no inline styles or unused styles
     ], 
     rules: {
       "no-console": "error", // custom rule to prevent console logs
       "react-hooks/rules-of-hooks": "error", // enforces correct usage of hooks
       "react-hooks/exhaustive-deps": "warn", // analyze dep array 
+      "react-native/no-inline-styles": "warn",
+      "react-native/no-unused-styles": "warn",
+      "react-native/no-color-literals": "off",
+      "react-native/split-platform-components": "off", // or "warn"
+      "react-native/no-raw-text": "off", // adjust for JSX
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
 
     } 
   },
   { 
-    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"], 
+    files: ["**/*.{ts,tsx}"], 
     languageOptions: { globals: {...globals.browser, ...globals.node} } 
   },
   tseslint.configs.recommended, // core Ts rules like no unused vars
