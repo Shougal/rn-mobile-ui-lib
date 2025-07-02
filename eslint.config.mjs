@@ -6,6 +6,8 @@ import pluginReact from 'eslint-plugin-react';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
 import pluginReactNative from 'eslint-plugin-react-native';
 import { defineConfig } from 'eslint/config';
+import prettierConfig from 'eslint-config-prettier';
+
 
 export default defineConfig([
   {
@@ -124,5 +126,6 @@ export default defineConfig([
       'react/react-in-jsx-scope': 'off',
     },
   },
+  prettierConfig
 ]);
 
