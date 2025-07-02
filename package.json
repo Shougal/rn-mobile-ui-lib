@@ -51,8 +51,14 @@
     "node": ">=18"
   },
   "lint-staged": {
-  "src/**/*.{ts,tsx}": ["prettier --write"],
-  "App.tsx": ["prettier --write"]
+  "src/**/*.{ts,tsx}": [
+    "prettier --write",
+    "eslint"
+  ],
+  "App.tsx": [
+    "prettier --write",
+    "eslint"
+  ]
 }
 
 }
