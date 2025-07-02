@@ -7,7 +7,10 @@
     "ios": "react-native run-ios",
     "lint": "eslint '**/*.{ts,tsx}' ",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier \"src/**/*.{ts,tsx}\" App.tsx --write",
+    "check": "npx prettier \"src/**/*.{ts,tsx}\" App.tsx --check",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.0",
@@ -31,11 +34,14 @@
     "@types/react": "^19.1.0",
     "@types/react-test-renderer": "^19.1.0",
     "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-native": "^5.0.0",
     "globals": "^16.3.0",
+    "husky": "^9.1.7",
     "jest": "^29.6.3",
+    "lint-staged": "^16.1.2",
     "prettier": "2.8.8",
     "react-test-renderer": "19.1.0",
     "typescript": "5.0.4",
@@ -43,5 +49,10 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "lint-staged": {
+  "src/**/*.{ts,tsx}": ["prettier --write"],
+  "App.tsx": ["prettier --write"]
+}
+
 }
