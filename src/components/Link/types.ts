@@ -1,5 +1,4 @@
-
-export interface LinkProps{
-    linkLabel: string,
-    onPress: ()=>void
+export interface LinkProps {
+  linkLabel: string;
+  onPress: () => void;
 }

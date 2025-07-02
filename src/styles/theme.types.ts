@@ -1,4 +1,11 @@
-import { cornerRadius, fontFamily, fontSize, gap, lineHeight, padding } from "./theme";
+import {
+  cornerRadius,
+  fontFamily,
+  fontSize,
+  gap,
+  lineHeight,
+  padding,
+} from "./theme";
 
 export type CornerRadius = keyof typeof cornerRadius;
 export type Gap = keyof typeof gap;

@@ -1,4 +1,3 @@
-
 export interface TextProps {
-    content: string
+  content: string;
 }

@@ -1,6 +1,6 @@
 //
 //  type.ts
-//  
+//
 //
 //  Created by shoug alharbi on 6/26/25.
 //
@@ -10,12 +10,10 @@
  Color is optional. If not chosen, default style will be chosen
  */
 
-export type VariantType= "default"|"offer"
+export type VariantType = "default" | "offer";
 
- export interface TagProps {
-    variant: VariantType
-    label: string
-    color?: string
+export interface TagProps {
+  variant: VariantType;
+  label: string;
+  color?: string;
 }
-
-
