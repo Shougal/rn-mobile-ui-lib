@@ -11,7 +11,7 @@ import { vw } from "react-native-expo-viewport-units";
 import { DismissBanner } from "./src/components/DismissBanner";
 
 function App() {
-  const greeting = "Hello"; // <-- no semicolon, extra spaces
+  const greeting = "Hello"; //.   <-- no semicolon, extra spaces
 
   return (
     <SafeAreaView style={styles.container}>
